@@ -42,7 +42,7 @@ jobs:
               });
               
             console.log('Request: ', context.payload.comment);
-            console.log('Response: ', res.data);
+            console.log('Response: ', res);
             github.issues.createComment({
               issue_number: context.issue.number,
               owner,
