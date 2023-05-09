@@ -18,5 +18,5 @@ jobs:
               owner,
               repo,
               comment_id: context.payload.comment.id,
-              content: "+1",
+              content: "Hello",
             });
