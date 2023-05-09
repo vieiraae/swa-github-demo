@@ -40,11 +40,13 @@ jobs:
               .catch(err => {
                 console.log('Error: ', err.message);
               });
+              
+            console.log('Request: ', context.payload.comment.id);
             console.log('Response: ', res.data);
             github.issues.createComment({
               issue_number: context.issue.number,
               owner,
               repo,
-              body: "Hello",
+              body: res.data.choices[0].text,
             });
 
