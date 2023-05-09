@@ -30,7 +30,7 @@ jobs:
               content: "+1",
             });            
             const axios = require('axios');            
-            const json = '{"prompt": ${{ context.payload.comment.body }}}';
+            const json = '{"prompt": ${ context.payload.comment.body }}';
             const res = await axios.post('https://alexvieiopenai.openai.azure.com/openai/deployments/model1/completions?api-version=2022-12-01', json, {
               headers: {
                 'Content-Type': 'application/json',
