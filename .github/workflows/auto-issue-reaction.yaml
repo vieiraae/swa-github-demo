@@ -13,10 +13,16 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const {owner, repo} = context.issue
+            const {issue_number, owner, repo} = context.issue
             github.reactions.createForIssueComment({
               owner,
               repo,
               comment_id: context.payload.comment.id,
-              content: "Hello",
+              content: "+1",
+            });            
+            github.issues.createComment({
+              issue_number,
+              owner,
+              repo,
+              body: "Hello",
             });
