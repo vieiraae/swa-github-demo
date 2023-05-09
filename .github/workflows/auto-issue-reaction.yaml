@@ -13,6 +13,11 @@ jobs:
         with:
           node-version: 16
       - run: npm install --save axios
+      - name: Cache
+        uses: actions/cache@v3      
+        with:
+          key: node_modules
+          path: node_modules        
       - name: Comment Issue
         uses: actions/github-script@v4
         with:
@@ -35,7 +40,7 @@ jobs:
               .catch(err => {
                 console.log('Error: ', err.message);
               });
-            console.log('Response: ', res.data.id);
+            console.log('Response: ', res);
             github.issues.createComment({
               issue_number: context.issue.number,
               owner,
