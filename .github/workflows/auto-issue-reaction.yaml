@@ -9,6 +9,10 @@ jobs:
   comment-issue:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install --save axios
       - name: Comment Issue
         uses: actions/github-script@v4
         with:
