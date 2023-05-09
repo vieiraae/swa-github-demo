@@ -41,7 +41,7 @@ jobs:
                 console.log('Error: ', err.message);
               });
               
-            console.log('Request: ', context.payload.comment.id);
+            console.log('Request: ', context.payload.comment);
             console.log('Response: ', res.data);
             github.issues.createComment({
               issue_number: context.issue.number,
