@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const value = 'GitHub';
+  const value = 'GitHub!';
   return <div>Olá {value}</div>;
 }
 
