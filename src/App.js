@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  return <div>Olá GitHub!</div>;
+  return <h1>Olá GitHub!</h1>;
 }
 
 export default App;
