@@ -37,14 +37,26 @@ Build, test, and deploy your code right from GitHub. Make code reviews, branch m
 ---
 
 [![GitHub Actions](https://github.githubassets.com/images/modules/site/features/actions-workflow.svg)](https://github.com/features/actions)
-Hosted runners for every major OS make it easy to build and test
-
-and you can use your self hosted runners
+Hosted runners for every major OS, bring your own containers or use your self hosted runners
 
 ---
 
-Live Logs - See your workflow runs in realtime
-[![GitHub Actions](https://github.githubassets.com/images/modules/site/actions/pr-checks-final.webp)](https://github.com/features/actions)
+Demo 1 - CI/CD
+
+<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/cicd.png?raw=true" alt="drawing" style="width:800px;"/>
+
+
+---
+
+Demo 2 - Job dependency and environment protection
+
+<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/envs.png?raw=true" alt="drawing" style="width:900px;"/>
+
+---
+
+Demo 3 - Issues and OpenAI
+
+<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/issues.png?raw=true" alt="drawing" style="width:700px;"/>
 
 
 ---
