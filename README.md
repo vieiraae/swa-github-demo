@@ -66,7 +66,7 @@ GitHub
 ---
 
 Demo 1 - CI/CD
-<a href=""><img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/cicd.png?raw=true" alt="drawing" style="width:900px;"/></a>
+<a href="https://github.com/vieiraae/swa-github-demo"><img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/cicd.png?raw=true" alt="drawing" style="width:900px;"/></a>
 
 
 ---
@@ -77,7 +77,7 @@ Demo 2 - Job dependency and environment protection
 ---
 
 Demo 3 - Issues & OpenAI
-<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/issues.png?raw=true" alt="drawing" style="width:600px;"/>
+<a href="https://github.com/vieiraae/github-with-openai"><img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/issues.png?raw=true" alt="drawing" style="width:600px;"/></a>
 
 ---
 
