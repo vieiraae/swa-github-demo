@@ -66,13 +66,13 @@ GitHub
 ---
 
 Demo 1 - CI/CD
-<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/cicd.png?raw=true" alt="drawing" style="width:900px;"/>
+<a href=""><img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/cicd.png?raw=true" alt="drawing" style="width:900px;"/></a>
 
 
 ---
 
 Demo 2 - Job dependency and environment protection
-<img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/envs.png?raw=true" alt="drawing" style="width:900px;"/>
+<a target = "_blank" href="https://github.com/vieiraae/apiops/actions/runs/4942179017"><img src="https://github.com/vieiraae/swa-github-demo/blob/main/public/envs.png?raw=true" alt="drawing" style="width:900px;"/></a>
 
 ---
 
